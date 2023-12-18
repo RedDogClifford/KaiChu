@@ -7,7 +7,7 @@ import './styles/style.css';
 export default function App() {
   return (
     <div>
-      <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'></link>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet"></link>
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />

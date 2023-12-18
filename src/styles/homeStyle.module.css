@@ -41,7 +41,7 @@
     line-height: 1.5;
     height: auto;
     color: white;
-    font-weight: bolder;
+    font-weight: 700;
 }
 
 .bioCard {
@@ -55,16 +55,20 @@
     background-color: white;
     aspect-ratio: 3;
 
-    font-weight: bolder;
-    padding-left: 25.5%;
-    padding-right: 25.5%;
+    font-weight: 700;
+    padding-left: 30%;
+    padding-right: 30%;
 }
 
 .jobCardStyle1 {
     display: grid;
-    grid-template-areas: 'image image txt txt txt';
+    grid-template-columns: 2fr 3fr;
     align-items: center;
     text-align: center;
+
+    padding-left: 22%;
+    padding-right: 22%;
+    gap: 5%;
 
     background-image: url(../resources/jobCardBgd.png);
     background-repeat: no-repeat;
@@ -77,12 +81,81 @@
     color: white;
 }
 
-.jobCardImg {
-    grid-area: image;
-    background-color: red;
+.jobCardStyle2 {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    align-items: center;
+    text-align: center;
+
+    padding-left: 25%;
+    padding-right: 25%;
+    gap: 1%;
+
+    width: 100%;
+    max-width: 100%;
+    background-size: 100% 100%;
+    height: auto;
+    aspect-ratio: 3;
+
+    color: white;
+}
+
+.jobCardStyle3 {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    align-items: center;
+    text-align: center;
+
+    padding-left: 25%;
+    padding-right: 25%;
+    gap: 5%;
+
+    background-image: url(../resources/jobCardBgd.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 100%;
+    background-size: 100% 100%;
+    height: auto;
+    aspect-ratio: 3;
+
+    color: white;
+}
+
+
+.jobCardLogo {
+    max-width: 100%;
+    width: 100%;
 }
 
 .jobCardText {
-    grid-area: txt;
-    background-color: blue;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: white;
+    font-weight: 700;
+    text-align: left;
+}
+
+.jobCardText2 {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: black;
+    font-weight: 700;
+    text-align: left;
+}
+
+.sapLink a {
+    color: #47C8FF;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.vjgaLink a {
+    color: rgb(23, 155, 23);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.bufferSpace {
+    background-color: white;
+    aspect-ratio: 15;
 }

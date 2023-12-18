@@ -1,0 +1,120 @@
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vi;
+    font-weight: 700;
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.gameCard1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+
+    padding-left: 20%;
+    padding-right: 20%;
+    gap: 5%;
+
+    /* background-color: blueviolet; */
+    width: 100%;
+    max-width: 100%;
+    background-size: 100% 100%;
+    height: auto;
+    aspect-ratio: 5;
+}
+
+.gameCard2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+
+    padding-left: 22%;
+    padding-right: 22%;
+    gap: 5%;
+
+    /* background-color: blueviolet; */
+    width: 100%;
+    max-width: 100%;
+    background-size: 100% 100%;
+    height: auto;
+    aspect-ratio: 5;
+}
+
+.gameImage1 {
+    max-width: 100%;
+    width: 100%;
+    border-color: #F5F5F5;
+    border-style: solid;
+}
+
+.gameImage2 {
+    object-fit: cover;
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    height: 100%;
+    border-color: #F5F5F5;
+    border-style: solid;
+}
+
+.gameImageRow {
+    display: grid;
+    gap: 1%;
+    grid-template-rows: repeat(2, minmax(0%, 100%));
+}
+
+.gameText1 {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: black;
+    font-weight: 700;
+    text-align: left;
+}
+
+.gameTextSub1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.15vi;
+    font-weight: 700;
+}
+
+.gameLink1 {
+    display: grid;
+    grid-template-columns: 0.7fr 0.2fr 2.1fr;
+    gap: 1%;
+    text-align: left;
+}
+
+.barLine {
+    background: linear-gradient(#000, #000) no-repeat center/10% 100%;
+}
+
+.gameDate1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 0.95vi;
+    color: #7B7B7B;
+}
+
+a {
+    color: blue;
+}
+
+.imgContainer1 {
+    display: grid;
+    grid-template-columns: 1.25fr 2fr;
+    gap: 1%;
+    object-fit: contain;
+}
+
+.bufferSpace {
+    background-color: f3fbeewhite;
+    aspect-ratio: 15;
+}

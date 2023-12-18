@@ -1,0 +1,30 @@
+.banner {
+  background-image: url(../resources/footerBanner.png);
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 50;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.contactItems {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+  gap: 4%;
+
+  padding-bottom: 0.5%;
+  background: none;
+}
+
+.contactItems a {
+  color: black;
+  font-size: 1vi;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* Change the link color to #111 (black) on hover */
+a:hover {
+  color: 7B7B7B;
+}

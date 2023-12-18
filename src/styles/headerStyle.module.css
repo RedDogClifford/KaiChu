@@ -8,7 +8,7 @@
 
   display: grid;
   grid-template-columns: auto auto;
-  font-weight: bolder;
+  font-weight: 700;
 }
 
 .leftGridItem {
@@ -53,10 +53,9 @@ li a {
   text-align: center;
   padding-right: 3%;
   text-decoration: none;
-  font-size: 1.5vi;
+  font-size: 1.25vi;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
   color: B8D4F1;
 }
