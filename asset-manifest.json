@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/KaiChu/static/css/main.b2170dc5.css",
+    "main.js": "/KaiChu/static/js/main.d08320f1.js",
+    "static/media/haloBackground.png": "/KaiChu/static/media/haloBackground.c37560bf503aa79c65bb.png",
+    "static/media/overtimeLogo.jpg": "/KaiChu/static/media/overtimeLogo.9ade58e67c1c62ae7969.jpg",
+    "static/media/jobCardBgd.png": "/KaiChu/static/media/jobCardBgd.71e0a5ae9b3ede014998.png",
+    "static/media/vjgaLogo.png": "/KaiChu/static/media/vjgaLogo.7eac81a98a605852731a.png",
+    "static/media/aqLogo.png": "/KaiChu/static/media/aqLogo.e2f548dfa7e6ea250638.png",
+    "static/media/introSideBanner.png": "/KaiChu/static/media/introSideBanner.c6e42a8cf6cc4da1326c.png",
+    "static/media/SAPLogo.png": "/KaiChu/static/media/SAPLogo.3105149f92ccc996b74c.png",
+    "static/media/headerBanner.png": "/KaiChu/static/media/headerBanner.0c5ab4db19142681f5d3.png",
+    "index.html": "/KaiChu/index.html",
+    "main.b2170dc5.css.map": "/KaiChu/static/css/main.b2170dc5.css.map",
+    "main.d08320f1.js.map": "/KaiChu/static/js/main.d08320f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2170dc5.css",
+    "static/js/main.d08320f1.js"
+  ]
+}
