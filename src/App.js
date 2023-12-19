@@ -10,8 +10,7 @@ export default function App() {
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet"></link>
       <HashRouter>
         <Routes>
-          <Route index element={<Home />} />
-          <Route path="/home" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="*" element={<Home />} />
         </Routes>
