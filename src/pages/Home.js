@@ -31,15 +31,15 @@ export default function Home() {
           <span style={{fontSize:'2vi'}}>Bio</span>
           <span style={{fontSize:'1vi', fontWeight:'500'}}>
             <br/><br/>
-            I am an avid gamer who loves a whole variety of video game genres.
+            I am an avid gamer who loves many video game genres. 
             <br/>
             I have played video games since I was a child, and have been very engaged
             <br/>
             with the video game industry for over 10 years.          
             <br/><br/>
-            I aim to build 3D story driven games
+            I dream of building 3D story-driven games
             <br/>
-            in the future that grab the attention of gamer’s across the world!
+            in the future that grab the attention of gamers across the world!
           </span>
         </p>
       </div>
