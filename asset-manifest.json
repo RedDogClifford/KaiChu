@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/KaiChu/static/css/main.b2170dc5.css",
-    "main.js": "/KaiChu/static/js/main.2a9aa49b.js",
+    "main.js": "/KaiChu/static/js/main.368e4237.js",
     "static/media/haloBackground.png": "/KaiChu/static/media/haloBackground.c37560bf503aa79c65bb.png",
     "static/media/overtimeLogo.jpg": "/KaiChu/static/media/overtimeLogo.9ade58e67c1c62ae7969.jpg",
     "static/media/jobCardBgd.png": "/KaiChu/static/media/jobCardBgd.71e0a5ae9b3ede014998.png",
@@ -12,10 +12,10 @@
     "static/media/headerBanner.png": "/KaiChu/static/media/headerBanner.0c5ab4db19142681f5d3.png",
     "index.html": "/KaiChu/index.html",
     "main.b2170dc5.css.map": "/KaiChu/static/css/main.b2170dc5.css.map",
-    "main.2a9aa49b.js.map": "/KaiChu/static/js/main.2a9aa49b.js.map"
+    "main.368e4237.js.map": "/KaiChu/static/js/main.368e4237.js.map"
   },
   "entrypoints": [
     "static/css/main.b2170dc5.css",
-    "static/js/main.2a9aa49b.js"
+    "static/js/main.368e4237.js"
   ]
 }
